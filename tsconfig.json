@@ -4,7 +4,8 @@
   "exclude": ["node_modules", "dist"],
   "compilerOptions": {
     "strictNullChecks": true,
-    "baseUrl": "src",
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
     "paths": {
       "@assets/*": ["assets/*"],
       "@consts": ["consts.ts"],
