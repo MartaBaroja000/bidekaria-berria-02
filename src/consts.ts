@@ -1,10 +1,10 @@
 import type { Site, Socials } from './types';
 
 export const SITE: Site = {
-  COMPANY_NAME: 'One Space Away',
-  LEGAL_NAME: 'One Space Away Interiors, LLC',
+  COMPANY_NAME: 'Bidekariak',
+  LEGAL_NAME: 'Bidekariak Interiors, LLC',
   TITLE: 'Home, just the way you like.',
-  DESCRIPTION: 'Discover the joy of living in a space that feels truly yours.',
+  DESCRIPTION: 'Queremos un Pirineo con equidad y justicia social en las oportunidades de emprendimiento.',
   CANONICAL_URL: import.meta.env.DEV
     ? 'http://localhost:4321'
     : 'https://one-space-away-html.pages.dev',
